@@ -16,7 +16,7 @@ export const App = () => {
         views={user.stats.views}
         likes={user.stats.likes}
       />
-      <Statistics />
+      <Statistics title="Upload stats" stats={statisticalData} />
     </div>
   );
 };
